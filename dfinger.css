@@ -2,8 +2,10 @@ body {
     margin: 0;
     background-image: url("backgroundimage.png");
     background-size: cover;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    background-repeat:repeat;
+	background-attachment:fixed;
+	overflow:scroll;
 }
 
 .container {
@@ -13,7 +15,7 @@ body {
 
 .container h1 {
     color: black;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 28px;
     float: left;
     margin-left: 60px;
@@ -96,6 +98,10 @@ nav a:hover {
     display: none;
 }
 
+.myTabs label:hover {
+    cursor: pointer;
+}
+
 .myTabs input[type='radio']:checked + label + .tab {
     display: block;
 }
@@ -129,6 +135,10 @@ nav a:hover {
     color: white;
     text-decoration: none;
     margin-bottom: 0.5px;
+}
+
+.footer-heading h3 {
+    color: white;
 }
 
 .footer-heading a {
